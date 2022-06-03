@@ -3,8 +3,6 @@
 /* more headers goes there */
 
 /* betty style doc for function main goes there */
-int main(void)
-{
 /**
 * main - Prints the last digit of a randomly generated number
 *       and evaluate whether it is greater than 5, equal to 0, and less than 6 and not 0.
