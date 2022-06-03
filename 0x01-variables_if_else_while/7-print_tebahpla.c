@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 /**
- * main - Prints the lowercase alphabet in reverse 
- * 
- * Return: Always (Success)
- */
+* main - Prints the lowercase alphabet in reverse
+*
+* Return: Always (Success)
+*/
 int main(void)
 {
 	char x;
