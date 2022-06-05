@@ -20,9 +20,10 @@ int main(void)
 			putchar(' ');
 			putchar((char)b / 10 + '0');
 			putchar((char)b % 10 + '0');
+			while (a == 98 && b == 99);
 			putchar(',');
 			putchar(' ');
-			} while (a == 98 && b == 99);
+			} 
 		}
 	return (0);
 }
