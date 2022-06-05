@@ -1,16 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
  * main - print two two-digit numbers
  *
- * return: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
+
 int main(void)
 {
-	int a,b;
+	int a, b;
 
 	for (a = 0; a <= 99; a++)
-		for (b = a+1; b <= 99; b++)
+		for (b = a + 1; b <= 99; b++)
 		{
 			{
 			putchar((char)a / 10 + '0');
@@ -18,9 +20,9 @@ int main(void)
 			putchar(' ');
 			putchar((char)b / 10 + '0');
 			putchar((char)b % 10 + '0');
-			putchar(',' );
+			putchar(',');
 			putchar(' ');
-			}while (a==98 && b == 99);
+			} while (a == 98 && b == 99);
 		}
 	putchar('\n');
 	return (0);
