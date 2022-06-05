@@ -19,7 +19,7 @@ int main(void)
 			putchar(' ');
 			putchar((char)b / 10 + '0');
 			putchar((char)b % 10 + '0');
-			putchar(',');
+			putchar(',' );
 			putchar(' ');
 			}
 		}
