@@ -10,9 +10,8 @@ int main(void)
 	int a,b;
 
 	for (a = 0; a <= 99; a++)
-		for (b = 0; b <= 99; b++)
+		for (b = a+1; b <= 99; b++)
 		{
-		if (a <= 99 && b <= 99)
 			{
 			putchar((char)a / 10 + '0');
 			putchar((char)a % 10 + '0');
