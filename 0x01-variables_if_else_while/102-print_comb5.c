@@ -11,7 +11,7 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 0; a <= 98; a++)
+	for (a = 0; a <= 99; a++)
 	{
 		for (b = a + 1; b <= 99; b++)
 		{
@@ -21,7 +21,7 @@ int main(void)
 			putchar(' ');
 			putchar((char)b / 10 + '0');
 			putchar((char)b % 10 + '0');
-			} while (a == 98 && b == 99);
+			} while (a == 99 && b == 99);
 			putchar(',');
 			putchar(' ');
 			}
