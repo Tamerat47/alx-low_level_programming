@@ -20,9 +20,10 @@ int main(void)
 			putchar(' ');
 			putchar(b / 10 + '0');
 			putchar(b % 10 + '0');
-		if (a != 98);			
+			if (a != 98)		
 			putchar(',');
 			putchar(' ');
 		}
+	}
 	return (0);
 }
