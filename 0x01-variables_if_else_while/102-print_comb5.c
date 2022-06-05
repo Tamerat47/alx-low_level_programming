@@ -20,7 +20,8 @@ int main(void)
 			putchar((char)b % 10 + '0');
 			putchar(',' );
 			putchar(' ');
-			}
+			}while (a==98 && b == 99);
 		}
+	putchar('\n');
 	return (0);
 }
