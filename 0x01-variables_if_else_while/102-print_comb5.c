@@ -11,20 +11,19 @@ int main(void)
 {
 	int a, b;
 
-	for (a = 0; a <= 99; a++)
+	for (a = 0; a <= 98; a++)
 	{
 		for (b = a + 1; b <= 99; b++)
 		{
-			{
-			putchar((char)a / 10 + '0');
-			putchar((char)a % 10 + '0');
-			putchar(' ');
-			putchar((char)b / 10 + '0');
-			putchar((char)b % 10 + '0');
-			} while (a == 98 && b == 99);
-			putchar(',');
-			putchar(' ');
-			}
+		putchar((char)a / 10 + '0');
+		putchar((char)a % 10 + '0');
+		putchar(' ');
+		putchar((char)b / 10 + '0');
+		putchar((char)b % 10 + '0');
+		while (a == 98 && b == 99);
+		putchar(',');
+		putchar(' ');
+		}
 	}
 	return (0);
 }
