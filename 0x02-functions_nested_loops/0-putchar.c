@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include<main.h>
 /**
  * main - print _putchar followed by a new line
  *
@@ -6,14 +6,7 @@
  */
 int main(void)
 {
-	int x = 0;
-	char _putchar;
-
-	for (x == 0; x++)
-		while (x == 0)
-		{
-			putchar(x);
-			putchar('\n');
-		}
-	return (0);
+	_putchar('_putchar');
+	_putchar('\n');
+return (0);
 }
