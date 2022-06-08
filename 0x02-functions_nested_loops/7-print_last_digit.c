@@ -4,7 +4,7 @@
  * 
  * Return: always x
  */
-int print_last_digit(int)
+int print_last_digit(int_min)
 {
 	int y,x;
 
