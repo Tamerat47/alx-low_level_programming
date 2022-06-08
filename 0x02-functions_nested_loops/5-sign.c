@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_sign - evaluate a number
+ * print_sign - evaluate a number and print
  * @n: arguament char
  * Retrun: 1 or 0 or -1 depend on the value
  *
