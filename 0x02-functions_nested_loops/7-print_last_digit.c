@@ -1,10 +1,10 @@
 #include "main.h"
 /**
  * print_last_digit - print last digit
- * 
+ * @min: minimum
  * Return: always x
  */
-int print_last_digit(int_min)
+int print_last_digit(int min)
 {
 	int y,x;
 
