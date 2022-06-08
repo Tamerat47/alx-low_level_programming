@@ -5,7 +5,7 @@
  * Return: return x
  *
  */
-int _abs(int n)
+int _abs(int x)
 {
 	if (x < 0)
 		x = -1 * x;
