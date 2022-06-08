@@ -2,7 +2,7 @@
 /**
  * print_sign - evaluate a number and print
  * @n: arguament char
- * Retrun: 1 or 0 or -1 depend on the value
+ * Return: 1 or 0 or -1 depend on the value
  *
  */
 int print_sign(int n)
