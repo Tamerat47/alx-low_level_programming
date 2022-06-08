@@ -1,12 +1,12 @@
 #include "main.h"
 /**
  * print_last_digit - print last digit
- * @min: minimum
+ * @y: integer
  * Return: always x
  */
-int print_last_digit(int min)
+int print_last_digit(int x)
 {
-	int y,x;
+	int y;
 
 	if (x < 0)
 		x = -1 * x;
