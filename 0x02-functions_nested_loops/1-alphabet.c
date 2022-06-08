@@ -8,7 +8,7 @@ int main(void)
   char x;
   x ='a';
   for (x = 97; x <= 122;x++)
-    putchar(x);
-  	putchar('\n');
+    _putchar(x);
+    _putchar('\n');
   return (0);
 }
