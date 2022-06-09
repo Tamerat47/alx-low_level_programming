@@ -1,9 +1,8 @@
 #include "main.h"
 
 /**
- * jack_bauer - print two two-digit numbers
+ * jack_bauer - print 24 hours
  *
- * Return: Always 0 (Success)
  */
 void jack_bauer(void)
 {
@@ -21,5 +20,4 @@ void jack_bauer(void)
 		_putchar('\n');
 		}
 	}
-	return (0);
 }
