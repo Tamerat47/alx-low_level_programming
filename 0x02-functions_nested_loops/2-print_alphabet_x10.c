@@ -5,9 +5,10 @@
 void print_alphabet_x10(void)
 {
 	char x;
+	int = i;
 
 	x = 'a';
-	for (int i = 0; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
 		for (x = 97; x <= 122; x++)
 		{
