@@ -12,7 +12,7 @@ void rev_string(char *s)
 		_putchar(s[j]);
 	}
 	_putchar('\n');
-	for (i -= 1; s[i] >= '\0'; i--)
+	for (i = j - 1; s[i] >= '\0'; i--)
 	{
 		_putchar(s[i]);
 	}
