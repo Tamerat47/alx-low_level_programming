@@ -5,14 +5,14 @@
  */
 void rev_string(char *s)
 {
-	int i, j;
+	int i;
 
 	for (i = 0; s[i] != '\0';)
 	{
 		_putchar(s[i]);
 		i++;
 	}
-	putchar('\n');
+	_putchar('\n');
 	for (i = 0; s[i] != '\0';)
 	{
 		i++;
@@ -21,5 +21,5 @@ void rev_string(char *s)
 	{
 		_putchar(s[i]);
 	}
-	putchar('\n');
+	_putchar('\n');
 }
