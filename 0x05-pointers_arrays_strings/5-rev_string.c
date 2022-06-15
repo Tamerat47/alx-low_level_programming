@@ -10,9 +10,7 @@ void rev_string(char *s)
 	for (j = 0; s[j] != '\0'; j++)
 	{
 		_putchar(s[j]);
-		break;
 	}
-	
 	for (i = 0; s[i] != '\0';)
 	{
 		i++;
@@ -20,6 +18,6 @@ void rev_string(char *s)
 	for (i -= 1; i >= 0; i--)
 	{
 		_putchar(s[i]);
+		_putchar('\n');
 	}
-	_putchar('\n');
 }
