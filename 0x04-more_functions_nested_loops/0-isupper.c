@@ -10,16 +10,10 @@ int _isupper(int c)
 
 	if (x >= 'A' && x <= 'Z')
 	{
-		putchar(c);
-		putchar(':');
-		putchar(' ');
-		putchar('1');
+		return (1);
 	}
-	if (x >= 'a' && x <= 'z')
+	else if (x >= 'a' && x <= 'z')
 	{
-		putchar(c);
-		putchar(':');
-		putchar(' ');
-		putchar('0');
+		return (0);
 	}
 }
