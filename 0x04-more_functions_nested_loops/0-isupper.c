@@ -6,16 +6,20 @@
  */
 int _isupper(int c)
 {
-	if (c >= '65' && c <= '90')
+	int x = c;
+
+	if (x >= 'A' && x <= 'Z')
 	{
-		_putchar(c);
-		_putchar(':');
-		return (1);
+		putchar(c);
+		putchar(':');
+		putchar(' ');
+		putchar('1');
 	}
-	if (c >= '97' && c <= '122')
+	if (x >= 'a' && x <= 'z')
 	{
-		_putchar(c);
-		_putchar(':');
-		return (0);
+		putchar(c);
+		putchar(':');
+		putchar(' ');
+		putchar('0');
 	}
 }
