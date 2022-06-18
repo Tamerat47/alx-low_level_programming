@@ -6,13 +6,11 @@
  */
 int _isupper(int c)
 {
-	int x = c;
-
-	if (x >= 'A' && x <= 'Z')
+	if (C >= 'A' && C <= 'Z')
 	{
 		return (1);
 	}
-	else if (x >= 'a' && x <= 'z')
+	else
 	{
 		return (0);
 	}
