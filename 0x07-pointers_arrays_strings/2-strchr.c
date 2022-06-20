@@ -10,17 +10,18 @@ char *_strchr(char *s, char c)
 {
 	int i = 0, j = 0;
 
-	do {
-		while (j <= i)
+	while (s[i])
+	{
+		i++;
+	}
+	while (j <= i)
+	{
+		if (c == s[j])
 		{
-			if (c == s[j])
-			{
-				s = s + j;
-				return (s);
-			}
-			j++;
+			s = s + j;
+			return (s);
 		}
-	} while (s[i])
-	i++;
+	j++;
+	}
 	return ('\0');
 }
