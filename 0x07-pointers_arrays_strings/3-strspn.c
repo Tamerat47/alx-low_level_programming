@@ -11,14 +11,14 @@ unsigned int _strspn(char *s, char *accept)
 	unsigned int i = 0, j = 0;
 
 	while (s[i])
-		i++;
 	{
-		while (accept[i])
-			i++;	
+		while (accept[j])
 		{
+			j++;
 			while (s[i] == accept[j])
 			break;
 		}
+	i++;
 	while (s[i] != accept[j])
 	break;
 	}
