@@ -7,13 +7,12 @@
  */
 void print_diagsums(int *a, int size)
 {
-	int i = 0, s1 = 0, s2 = 0;
+	int i, c = 0, d = 0;
 
-	while (i < size)
-		i++;
+	for (i = 0; i < size; i++)
 	{
-		s1 += a[(size + 1) * i];
-		s2 += a[(sizse - 1) * (i + 1)];
+		c += a[(size + 1) * i];
+		d += a[(sizse - 1) * (i + 1)];
 	}
-	_putchar("%d,%d\n", s1, s2);
+	_putchar("%d,%d\n", c, d);
 }
