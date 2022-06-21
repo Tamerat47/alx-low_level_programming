@@ -4,7 +4,7 @@
  * _strstr - a function that locates a substring
  * @haystack: string
  * @needle: string
- * return: null
+ * Return: null
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -14,12 +14,12 @@ char *_strstr(char *haystack, char *needle)
 	{
 		for (j = 0; needle[j]; j++)
 		{
-			while (haystack[i + j] != needle[j])
+			if (haystack[i + j] != needle[j])
 			{
 				break;
 			}
 		}
-		while (needle[j] == '\0')
+		if (needle[j] == '\0')
 		{
 			return (haystack + i);
 		}
