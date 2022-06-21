@@ -1,4 +1,4 @@
- #include "main.h"
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -13,8 +13,7 @@ void print_diagsums(int *a, int size)
 	for (i = 0; i < size; i++)
 	{
 		c += a[(size + 1) * i];
-		d += a[(sizse - 1) * (i + 1)];
+		d += a[(size - 1) * (i + 1)];
 	}
-	printf("%d, ", c);
-	printf("%d\n", d);
+	printf("%d, %d\n", c, d);
 }
