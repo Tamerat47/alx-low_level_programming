@@ -14,5 +14,5 @@ void print_diagsums(int *a, int size)
 		c += a[(size + 1) * i];
 		d += a[(sizse - 1) * (i + 1)];
 	}
-	_putchar("%d,%d\n", c, d);
+	return ("%d,%d\n", c, d);
 }
