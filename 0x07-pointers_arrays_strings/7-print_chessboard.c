@@ -11,12 +11,12 @@ void print_chessboard(char (*a)[8])
 
 	while (i < 8)
 	{
+		i++;
 		while (j < 8)
 		{
 			_putchar(a[i][j]);
 			j++;
 		}
-	i++;	
 	_putchar('\n');
 	}
 }
