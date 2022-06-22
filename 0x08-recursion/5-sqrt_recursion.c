@@ -11,7 +11,7 @@ int _sqrt_recursion(int n)
 
 	if (n / x == x && x * x == n)
 	{
-		x = _sqrt_recursion(n));
+		x = _sqrt_recursion(n);
 		return (x);
 	}
 	else
