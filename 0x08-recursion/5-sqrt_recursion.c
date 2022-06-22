@@ -10,14 +10,13 @@ int _sqrt(int n, int r)
 	if (n == 0)
 		return (0);
 
-	else if (r * r > n || r < 0)
+	if (r * r > n || r < 0)
 		return (-1);
 
-	else if (r * r == n)
-	{
+	if (r * r == n)
 		return (r);
-		return (_sqrt(n, r + 1));
-	}
+
+	return (_sqrt(n, r + 1));
 }
 /**
  * _sqrt_recursion - a funtin that returns the square root of num
@@ -26,5 +25,8 @@ int _sqrt(int n, int r)
  */
 int _sqrt_recursion(int n)
 {
+	if (n == 0)
+		return (0);
+
 	return (_sqrt(n, 1));
 }
