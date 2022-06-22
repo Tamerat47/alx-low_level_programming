@@ -9,9 +9,8 @@ int _sqrt(int n, int r)
 {
 	if (r > 0 && n == r * r)
 	{
-		r *= _sqrt(n, r + 1);
 		return (r);
-
+		return (_sqrt(n, r + 1));
 	}
 	else
 		return (-1);
