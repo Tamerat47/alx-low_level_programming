@@ -2,10 +2,9 @@
 /**
  * _sqrt_recursion - a funtin that returns the square root of num
  * @n: integer
- * @r: result
  * Return: n result
  */
-int _sqrt_recursion(int n, int r)
+int _sqrt_recursion(int n)
 {
 	return (_sqrt(n, 1));
 }
