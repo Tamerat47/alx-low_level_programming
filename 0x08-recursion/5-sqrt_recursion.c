@@ -7,13 +7,19 @@
  */
 int _sqrt(int n, int r)
 {
-	if (r > 0 && r * r == n)
+	if (n == 0)
+	{
+		return (0);
+	}
+	if (r * r > n || r < 0)
+	{
+		return (-1);
+	}
+	if (r * r == n)
 	{
 		return (r);
 		return (_sqrt(n, r + 1));
 	}
-	else
-		return (-1);
 }
 /**
  * _sqrt_recursion - a funtin that returns the square root of num
@@ -22,8 +28,5 @@ int _sqrt(int n, int r)
  */
 int _sqrt_recursion(int n)
 {
-	if (n == 0)
-		return (0);
-
 	return (_sqrt(n, 1));
 }
