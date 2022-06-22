@@ -7,12 +7,12 @@
  */
 int _sqrt(int n, int r)
 {
-	if (r > 0 && n == r * r)
+	if (r > 0 && r * r == n)
 	{
 		return (r);
 		return (_sqrt(n, r + 1));
 	}
-	else
+	else if (r < 0 && r * r > n)
 		return (-1);
 }
 /**
