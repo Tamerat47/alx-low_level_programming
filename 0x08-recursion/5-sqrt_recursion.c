@@ -1,14 +1,5 @@
 #include "main.h"
 /**
- * _sqrt_recursion - a funtin that returns the square root of num
- * @n: integer
- * Return: n result
- */
-int _sqrt_recursion(int n)
-{
-	return (_sqrt(n, 1));
-}
-/**
  * _sqrt - _sqrt_recursion
  * @n: integer
  * @r: result
@@ -24,4 +15,16 @@ int _sqrt(int n, int r)
 	}
 	else
 		return (-1);
+}
+/**
+ * _sqrt_recursion - a funtin that returns the square root of num
+ * @n: integer
+ * Return: n result
+ */
+int _sqrt_recursion(int n)
+{
+	if (n == 0)
+		return (0);
+
+	return (_sqrt(n, 1));
 }
