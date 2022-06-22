@@ -5,18 +5,18 @@
  *
  * Return: n result
  */
-int _sqrt_recursion(int n)
+int _sqrt_recursion(int n, int r)
 {
-	int x;
+	int r;
 
-	if (x != 0)
+	if (r != 0)
 	{
-		x = n / x;
+		r = n / r;
 	}
-	if (x * x == n)
+	if (r * r == n)
 	{
-		x = _sqrt_recursion(n);
-		return (x);
+		r = _sqrt_recursion(n);
+		return (r);
 	}
 	else
 		return (-1);
