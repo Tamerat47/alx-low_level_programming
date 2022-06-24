@@ -24,6 +24,6 @@ int _atoi(char *s)
 
 	}
 
-	z = (num * sign);
+	z = (x * y);
 	return (z);
 }
