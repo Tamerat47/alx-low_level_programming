@@ -18,7 +18,9 @@ int _atoi(char *s)
 		y = (y * 10) + (*s - '0');
 
 	else if (y > 0)
+	{
 		break;
+	}
 	while (*s++)
 
 	z = (x * y);
