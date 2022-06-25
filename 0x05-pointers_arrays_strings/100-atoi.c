@@ -10,7 +10,7 @@ int _atoi(char *s)
 {
 	int x = 1, z;
 	unsigned int y = 0;
-	
+
 	do {
 		if (*s == '-')
 			x *= -1;
@@ -20,8 +20,7 @@ int _atoi(char *s)
 
 		else if  (y > 0)
 			break;
-	}
-	while (*s++);
+	} while (*s++);
 
 	z = (x * y);
 	return (z);
