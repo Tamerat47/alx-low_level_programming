@@ -11,7 +11,7 @@ int _atoi(char *s)
 	int x = 1, z;
 	unsigned int y = 0;
 
-	for (*s)
+	while(*s++);
 	{
 		if (*s == '-')
 			x *= -1;
@@ -23,7 +23,6 @@ int _atoi(char *s)
 			break;
 
 	}
-	*s++;
 	z = (x * y);
 	return (z);
 }
