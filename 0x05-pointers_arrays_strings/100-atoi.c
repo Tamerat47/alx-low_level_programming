@@ -21,7 +21,7 @@ int _atoi(char *s)
 		else if  (y > 0)
 			break;
 	}
-	while (*s++)
+	while (*s++);
 
 	z = (x * y);
 	return (z);
