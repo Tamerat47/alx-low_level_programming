@@ -8,22 +8,23 @@
  */
 int main(int argc, char *argv[])
 {
-	unsigned int a, b, c;
+	int i, j, sum = 0;
 
-	while (argc != 3)
+	for (i = 1; i < argc; i++)
 	{
-		printf("0\n");
-	}
-	if (argv < '48' && argv > '57')
-	{
-		printf("Error\n");
-		return (1);
+		for (j = 0; argv[i][j]; j++)
+		{
+			while (argv[i][j] < '0' || argv[i][j] > '9')
+			{
+				printf("Error\n");
+				return (1);
+			}
+		}
+
+		sum += atoi(argv[i]);
 	}
 
-		a = atoi(argv[1]);
-		b = atoi(argv[2]);
-		c = a + b;
+	printf("%d\n", sum);
 
-		printf("%d\n", c);
-		return (0);
+	return (0);
 }
