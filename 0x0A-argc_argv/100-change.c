@@ -15,7 +15,7 @@ int main(int argc, char *argv[])
 		printf("Error\n");
 		return (1);
 	}
-	for (cents = atoi(argv[1]); cents > 0; cents--)
+	for (cents = atoi(argv[1]); cents > 0;)
 	{
 		money++;
 		if (cents >= 25)
@@ -43,6 +43,7 @@ int main(int argc, char *argv[])
 			cents -= 1;
 			continue;
 		}
+		cents--;
 	}
 	printf("%d\n", money);
 	return (0);
