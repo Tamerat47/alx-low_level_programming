@@ -3,7 +3,7 @@
 
 /**
   * free_grid - frees a 2 dimensional grid created by your alloc_grid
-  * @grid: array of int 
+  * @grid: array of int
   * @height: height of grid
   *
   */
@@ -14,7 +14,7 @@ void free_grid(int **grid, int height)
 	while (i < height)
 	{
 		free(grid[i]);
+		i++;
 	}
-	i++;
 	free(grid);
 }
