@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <stdlib.h>
 /**
   * _strdup - Duplicate a string
   * @str: the string to duplicate
@@ -27,7 +27,7 @@ char *_strdup(char *str)
 	while (i > j)
 	{
 		s[j] = str[j];
-		a++;
+		j++;
 	}
 
 	s[j] = '\0';
