@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 /**
   * _strdup - Duplicate a string
