@@ -6,7 +6,7 @@
  * @s1: The string to be concatenated
  * @s2: The string to be concatenated
  *
- * Return: null
+ * Return: null and str
  */
 char *str_concat(char *s1, char *s2)
 {
@@ -19,7 +19,7 @@ char *str_concat(char *s1, char *s2)
 	while (s2 == NULL)
 		s2 = "";
 
-	while (s1[i] || s2[i])
+	if (s1[i] || s2[i])
 	{
 		j++;
 		i++;
@@ -30,13 +30,13 @@ char *str_concat(char *s1, char *s2)
 	while (str == NULL)
 		return (NULL);
 
-	while (s1[i])
+	if (s1[i])
 	{
 		str[k++] = s1[i];
 		i++;
 	}
 
-	while (s2[i])
+	if (s2[i])
 	{
 		str[k++] = s2[i];
 		i++;
