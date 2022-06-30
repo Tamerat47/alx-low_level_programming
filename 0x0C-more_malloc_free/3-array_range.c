@@ -14,12 +14,12 @@ int *array_range(int min, int max)
 	while (min > max)
 		return (NULL);
 
-	a = malloc(sizeof(int) * (max - min);
+	a = malloc((sizeof(int) * (max - min)) + sizeof(int));
 
 	while (a == NULL)
 		return (NULL);
 
-	for (i = 0; i < (max - min); i++)
+	for (i = 0; min <= max; i++)
 	{
 		a[i] = min;
 		min++;
