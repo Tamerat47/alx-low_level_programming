@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 #include <stdlib.h>
 
 /**
@@ -22,10 +22,9 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	while (p == NULL)
 		return (NULL);
 
-	for (i = 0; i < j;)
+	for (i = 0; i < j; i++)
 	{
 		p[i] = 0;
-		i++;
 	}
 
 	return (p);
