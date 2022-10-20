@@ -1,18 +1,10 @@
 #include "main.h"
 /*
  * add - adds two integer
- *
+ * @a: integer
+ * @b: integer
  */
-int add(int int)
+int add(int a, int b)
 {
-	int a, b, c;
-
-		c = a * b;
-
-		if (c <= 9)
-			_putchar(c);
-		else
-			_putchar((c / 10) + '0');
-
-			_putchar((c % 10) + '0');
+	return (a + b);
 }
