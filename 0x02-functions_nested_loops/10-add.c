@@ -12,10 +12,10 @@ int add(int a, int b);
 		c = a * b;
 
 		if (c <= 9)
-			putchar(c)
+			_putchar(c)
 		else
-			putchar((prod / 10) + '0');
+			_putchar((prod / 10) + '0');
 
-			putchar((prod % 10) + '0');
+			_putchar((prod % 10) + '0');
 	}
 }
