@@ -1,7 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-include "_putchar"
-#include "10-print_triangle.c"
 
 int main(void);
 int _putchar(char c);
