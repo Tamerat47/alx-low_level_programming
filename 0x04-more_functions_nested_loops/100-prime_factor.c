@@ -8,7 +8,7 @@
 int main(void)
 {
 	long i, lf;
-	long a = 1231952;
+	long a = 612852475143;
 
 	for (i = 1; i <= (sqrt(a)); i++)
 	{
