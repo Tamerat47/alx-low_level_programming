@@ -12,9 +12,14 @@ void print_number(int n)
 	{
 		n *= -1;
 		_putchar('-');
+		continue;
 	}
 
-	if ((n == 0) && (n % 10 == 0)
-		print_number(n);
-	_putchar(n % 10 + '0');
+	if (n != 0)
+	{
+		_putchar(n / 10 + '0');
+		_putchar(n % 10 + '0');
+	}
+	else
+		_putchar('0');
 }
