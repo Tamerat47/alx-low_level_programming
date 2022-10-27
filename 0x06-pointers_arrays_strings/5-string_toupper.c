@@ -3,7 +3,8 @@
 /**
  * string_toupper - change all lowercase to uppercase
  *
- * Return: always 0.
+ * @p: a pointer that  points to the string
+ * Return: retruns to the value of the string
  */
 char *string_toupper(char *p)
 {
