@@ -20,5 +20,5 @@ void print_number(int n)
 	if (i != 0)
 		print_number(i);
 
-	_putchar(n % 10 + '0');
+	_putchar((unsigned int) n % 10 + '0');
 }
