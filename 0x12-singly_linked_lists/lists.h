@@ -1,5 +1,14 @@
 #ifndef _LINKED_LIST
 #define _LINKED_LIST
+/**
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
+ * @next: points to the next node
+ *
+ * Description: singly linked list node structure
+ * for Holberton project
+ */
 
 #include <stdlib.h>
 
@@ -9,6 +18,7 @@ typedef struct list_s
 	unsigned int len;
 	struct list_s *next;
 } list_t;
+
 int _strlen(const char *s);
 size_t print_list(const list_t *h);
 size_t list_len(const list_t *h);
