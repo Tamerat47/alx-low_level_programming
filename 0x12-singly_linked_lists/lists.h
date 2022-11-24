@@ -10,8 +10,6 @@
  * for Holberton project
  */
 
-#include <stdlib.h>
-
 typedef struct list_s
 {
 	char *str;
